@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tealium Ecommerce Test Suite" verbose="2">
+    
+    <listeners>
+        <listener class-name="utils.AllureListener"/>
+    </listeners>
+    
+    <test name="Ecommerce Functional Tests" parallel="false">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.RegistrationTests"/>
+            <class name="tests.AddShoesToCartTest"/>
+        </classes>
+    </test>
+    
+</suite>
