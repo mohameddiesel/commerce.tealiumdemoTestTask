@@ -1,6 +1,6 @@
 # Tealium Ecommerce Automation Framework
 
-This is an automated testing framework for the Tealium Ecommerce Demo website using Selenium WebDriver with TestNG.
+This is an automated testing framework for the Tealium Ecommerce Demo website using **Selenium WebDriver** with **TestNG**.
 
 ## 🚀 Features
 
@@ -10,15 +10,25 @@ This is an automated testing framework for the Tealium Ecommerce Demo website us
 - **Build Tool**: Maven
 - **Browser**: Chrome
 
+---
+
 ## 📋 Prerequisites
 
-- Java 8 or higher
-- Maven 3.6 or higher
-- Chrome Browser
+Before you begin, ensure that you have the following installed:
+
+- **Java 8** or higher
+- **Maven 3.6** or higher
+- **Chrome Browser**
+
+---
 
 ## 🛠️ Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd ecommerce-automation
+Follow these steps to set up the project on your local machine:
+
+### 1. **Clone the Repository**
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/mohameddiesel/commerce.tealiumdemoTestTask.git
